@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=franklinonyia/mlhousepredict
+dockerpath=franklinonyia/housepredict
 
 
 # Step 2:  
@@ -14,7 +14,7 @@ dockerpath=franklinonyia/mlhousepredict
 echo "Docker ID and Image: $dockerpath"
 
 docker login -u franklinonyia
-docker tag mlhousepredict $dockerpath:latest
+docker tag housepredict $dockerpath:latest
 
 
 # Step 3:
