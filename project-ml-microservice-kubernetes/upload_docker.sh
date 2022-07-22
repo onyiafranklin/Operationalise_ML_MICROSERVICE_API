@@ -6,10 +6,17 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=franklinonyia/mlhousepredict
+
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
+docker login -u franklinonyia
+docker tag mlhousepredict $dockerpath:latest
+
+
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath:latest
