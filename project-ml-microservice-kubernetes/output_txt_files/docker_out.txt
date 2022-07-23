@@ -1,11 +1,15 @@
-<paste log output from Docker prediction, here>
- * Debugger PIN: 177-516-817
-[2022-07-22 20:56:24,915] INFO in app: JSON payload: 
+* Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 123-169-152
+[2022-07-22 23:57:28,130] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2022-07-22 20:56:24,930] INFO in app: Inference payload DataFrame: 
+[2022-07-22 23:57:28,142] INFO in app: Inference payload DataFrame: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2022-07-22 20:56:24,941] INFO in app: Scaling Payload: 
+[2022-07-22 23:57:28,151] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-172.17.0.1 - - [22/Jul/2022 20:56:24] "POST /predict HTTP/1.1" 200 -
+172.17.0.1 - - [22/Jul/2022 23:57:28] "POST /predict HTTP/1.1" 200 -
+
